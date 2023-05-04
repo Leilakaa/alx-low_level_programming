@@ -5,6 +5,7 @@
 * @dest: String to be appended upon
 * @src: String to be appended to dest
 * @n: The number to the resulting string dest
+* Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
