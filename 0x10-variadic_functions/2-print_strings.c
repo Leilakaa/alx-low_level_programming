@@ -2,10 +2,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
-* print_numbers - prints strings, followed by a new line
+* print_strings - prints strings, followed by a new line
 * @n: number of parameter
 * @separator: separator betwen two numbers
-* Return: Always 0
+* @...: A variable number of strings to be printed
+* Description: if seperator is NULL, it is not printed.
+* if one of strings if NULL, (nil) is printed instead.
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
